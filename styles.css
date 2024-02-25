@@ -1,0 +1,136 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #8116df;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+header p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Navigation Styles */
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #007bff;
+}
+
+/* Top Section Styles */
+#top {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+#top p {
+    font-size: 20px;
+}
+
+/* Content Section Styles */
+div {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+ul.favorite-songs-list {
+    list-style-type: none;
+}
+
+ul.favorite-songs-list li {
+    margin-bottom: 5px;
+}
+
+/* Image Styles */
+.gallery-image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+/* Video Styles */
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #067191;
+    color: #fff;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #b119e0;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
